@@ -23,7 +23,7 @@
     left: -50%;
     width: 760px;
     height: 840px;
-    background: linear-gradient(0deg,transparent,#ff4574,#ff4574);
+    background: linear-gradient(0deg,transparent,#e6398a,#8361ff);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
 
@@ -35,7 +35,7 @@
     left: -50%;
     width: 760px;
     height: 840px;
-    background: linear-gradient(0deg,transparent,#ff4574,#ff4574);
+    background: linear-gradient(0deg,transparent,#e6398a,#8361ff);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
     animation-delay: -3s;
@@ -60,7 +60,7 @@
     flex-direction: column;
 }
 .from h2 {
-    color: #ff4574;
+    color: #ff5c84;
     font-weight: 500;
     text-align: center;
     letter-spacing: 0.1em;
@@ -96,7 +96,7 @@
 }
 .inputBox input:valid ~ span,
 .inputBox input:focus ~ span {
-    color: #ff4574;
+    color: #ff5c84;
     transform: translateX(0px) translateY(-34px);
     font-size: 0.75em;
 }
@@ -106,7 +106,7 @@
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: #ff4574;
+    background: #ff5c84;
     border-radius: 4px;
     transition: 0.5s;
     pointer-events: none;
@@ -130,16 +130,20 @@
 }
 .links a:hover,
 .links a:nth-child(2) {
-    color: #ff4574;
+    color: #ff5c84;
 }
 button[type="submit"] {
     border: none;
     outline: none;
-    background: #ff4574;
+    background: #ff5c84;
     padding: 11px 25px;
     width: 100px;
     margin-top: 10px;
     border-radius: 4px;
     font-weight: 600;
     cursor: pointer;
+}
+.logo img {
+    width: 215px;
+    height: 215px;
 }
